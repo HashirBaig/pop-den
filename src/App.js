@@ -1,16 +1,7 @@
-import React from 'react';
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-} from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
+import React from "react"
+import { ChakraProvider, Box, Text, Link, VStack, Code, Grid, theme } from "@chakra-ui/react"
+import { ColorModeSwitcher } from "./ColorModeSwitcher"
+import { Logo } from "./Logo"
 
 function App() {
   return (
@@ -36,7 +27,7 @@ function App() {
         </Grid>
       </Box>
     </ChakraProvider>
-  );
+  )
 }
 
-export default App;
+export default App
